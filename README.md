@@ -214,7 +214,7 @@
       </p>
 
       <div class="course-card" style="background-color: #E1F5FE;">
-        <h3>🟢 Inglés Básico para Principiantes</h3>
+        <h3>🔵 Inglés Básico para Principiantes</h3>
         <p>
           Ideal para quienes están comenzando. Aprende vocabulario esencial,
           gramática básica y frases comunes para comunicarte desde el primer día.
@@ -231,7 +231,7 @@
 
 
 <div class="course-card" style="background-color: #E1F5FE;">
-  <h3>🟣 Preparación para TOEFL/IELTS</h3>
+  <h3>🔵 Preparación para TOEFL/IELTS</h3>
   <p>
     Entrena para obtener certificaciones internacionales. Simulacros de
     examen, estrategias y tips para aprobar con éxito.
@@ -241,7 +241,7 @@
 
 
       <div class="course-card" style="background-color: #E1F5FE;">
-        <h3>🟠 Inglés para Negocios</h3>
+        <h3>🔵 Inglés para Negocios</h3>
         <p>
           Enfocado en vocabulario empresarial, presentaciones, reuniones y
           escritura profesional. Perfecto para ejecutivos y emprendedores.
