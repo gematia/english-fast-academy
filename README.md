@@ -102,19 +102,22 @@
         margin-right: 20px;
         width: 30%; /* Tamaño de la imagen izquierda */
       }
-      .img-center {
-        display: block;
-        margin: 20px auto;
-        width: 30%; /* Tamaño de la imagen central restaurado */
-      }
-      .img-medium {
-        display: block;
-        margin: 20px auto;
-        width: 25%; /* Tamaño de la imagen mediana reducido a la mitad */
-      }
-      .clearfix {
-        clear: both;
-      }
+      .image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.img-medium {
+  display: inline-block;
+  width: 25%;
+  margin: 0 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+      
     </style>
 
     <script>
@@ -157,7 +160,7 @@
     <main>
       <section id="inicio">
         <h2>Bienvenido a English Fast Academy</h2>
-        <img src="imgizq.jpeg" alt="Descripción de la imagen" class="img-left" />
+        <img src="imgvertical.jpeg" alt="Descripción de la imagen" class="img-left" />
         <p>
           <strong>English Fast Academy</strong> es una academia moderna enfocada
           en acelerar tu aprendizaje del idioma inglés con métodos interactivos,
@@ -169,8 +172,15 @@
           <li>✅ Profesores certificados</li>
           <li>✅ Planes personalizados para cada alumno</li>
         </ul>
-        <img src="imgtexto.jpeg" alt="Descripción de la imagen mediana" class="img-medium" /> <!-- Imagen mediana reducida -->
-        <div class="clearfix"></div>
+       <section id="inicio">
+
+  <div class="image-container">
+    <img src="imgver.jpeg" alt="Descripción de la imagen mediana" class="img-medium">
+    <img src="imghr.jpeg" alt="Descripción de la imagen mediana" class="img-medium">
+  </div>
+  <div class="clearfix"></div>
+
+
       </section>
 
       <section id="cursos">
@@ -227,4 +237,4 @@
       <a href="https://www.facebook.com/share/1AfLaNygJ8/" target="_blank" style="color: #fff; text-decoration: underline;">Facebook</a>
     </footer>
   </body>
-</html>
+</html> 
