@@ -2,7 +2,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-  
     <title>English Fast Academy</title>
     <style>
       body {
@@ -161,7 +160,7 @@
     <main>
       <section id="inicio">
         <h2>Bienvenido a English Fast Academy</h2>
-        <img src="imgvertical.jpeg" alt="Descripción de la imagen" class="img-left" />
+        <img src="imgvertical.jpeg" alt="Descripción de la imagen" class="img-left" id="artifact"/>
         <p>
           <strong>English Fast Academy</strong> es una academia moderna enfocada
           en acelerar tu aprendizaje del idioma inglés con métodos interactivos,
@@ -176,8 +175,9 @@
        <section id="inicio">
 
   <div class="image-container">
-    <img src="imgver.jpeg" alt="Descripción de la imagen mediana" class="img-medium">
-    <img src="imghr.jpeg" alt="Descripción de la imagen mediana" class="img-medium">
+    
+    <img src="imgver.jpeg" alt="Descripción de la imagen mediana" class="img-medium" id="artifact">
+    <img src="imghr.jpeg" alt="Descripción de la imagen mediana" class="img-medium" id="artifact">
   </div>
   <div class="clearfix"></div>
 
